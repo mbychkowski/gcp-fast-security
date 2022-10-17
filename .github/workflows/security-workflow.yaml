@@ -25,7 +25,7 @@ on:
 
 env:
   FAST_OUTPUTS_BUCKET: bych-prod-iac-core-outputs-0
-  FAST_SERVICE_ACCOUNT: bych-prod-security-1@bych-prod-iac-core-0.iam.gserviceaccount.com
+  FAST_SERVICE_ACCOUNT: prod-resman-sec-1@bych-prod-iac-core-0.iam.gserviceaccount.com
   FAST_WIF_PROVIDER: projects/315334508669/locations/global/workloadIdentityPools/bych-bootstrap/providers/bych-bootstrap-github
   SSH_AUTH_SOCK: /tmp/ssh_agent.sock
   TF_PROVIDERS_FILE: 02-security-providers.tf
